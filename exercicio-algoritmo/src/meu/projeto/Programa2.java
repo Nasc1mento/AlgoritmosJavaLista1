@@ -1,3 +1,5 @@
+// area de um triangulo
+
 package meu.projeto;
 
 import java.util.Scanner;
@@ -22,7 +24,7 @@ public class Programa2 {
 		
 		area = (base1 * base2) / altura;
 		
-		System.out.printf("A área do triângulo é %.2f", area);
+		System.out.printf("A ï¿½rea do triï¿½ngulo ï¿½ %.2f", area);
 		
 		
 	}

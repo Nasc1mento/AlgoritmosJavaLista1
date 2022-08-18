@@ -1,3 +1,5 @@
+// par ou impar?
+
 package meu.projeto;
 
 import java.util.Scanner;
@@ -5,7 +7,7 @@ import java.util.Scanner;
 public class Programa4 {
 	public static void main (String [] args) {
 		
-		System.out.println("Digite um número:");
+		System.out.println("Digite um nï¿½mero:");
 		int numero;
 		
 		Scanner sc = new Scanner(System.in);

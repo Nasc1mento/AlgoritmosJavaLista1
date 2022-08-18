@@ -1,3 +1,5 @@
+// media das notas
+
 package meu.projeto;
 
 import java.util.Scanner;

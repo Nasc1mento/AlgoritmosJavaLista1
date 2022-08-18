@@ -1,3 +1,5 @@
+// IMC
+
 package meu.projeto;
 
 import java.util.Scanner;
@@ -23,7 +25,7 @@ public class Programa1 {
 		
 		
 		
-		System.out.printf("Seu IMC é %.2f", imc);
+		System.out.printf("Seu IMC ï¿½ %.2f", imc);
 	}
 }
 
