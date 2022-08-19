@@ -1,6 +1,6 @@
 // primo, impar , par dos 100 numeros inteiros
 
-package meu.projeto.ficha02;
+package meu.projeto.algoritmosficha02;
 
 public class Questao456 {
 	static int[] preencher () {

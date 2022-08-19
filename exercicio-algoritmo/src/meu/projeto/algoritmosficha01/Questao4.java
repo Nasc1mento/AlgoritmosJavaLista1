@@ -1,5 +1,5 @@
 // maior numero
-package meu.projeto.ficha01;
+package meu.projeto.algoritmosficha01;
 
 import java.util.Scanner;
 

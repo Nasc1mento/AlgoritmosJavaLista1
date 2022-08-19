@@ -1,6 +1,6 @@
 // maior dos cem numeros
 
-package meu.projeto.ficha02;
+package meu.projeto.algoritmosficha02;
 
 public class Questao7 {
 	static int[] preencher () {

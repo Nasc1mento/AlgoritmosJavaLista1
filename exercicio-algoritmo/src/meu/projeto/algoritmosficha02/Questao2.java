@@ -1,6 +1,6 @@
 // imprimir scanner array inversamente
 
-package meu.projeto.ficha02;
+package meu.projeto.algoritmosficha02;
 
 import java.util.Scanner;
 

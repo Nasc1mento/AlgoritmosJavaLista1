@@ -1,6 +1,6 @@
 // imprimir array aleatorio inversamente
 
-package meu.projeto.ficha02;
+package meu.projeto.algoritmosficha02;
 
 public class Questao3 {
 	 public static void main (String [] args) {

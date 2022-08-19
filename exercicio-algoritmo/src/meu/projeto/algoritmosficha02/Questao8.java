@@ -1,7 +1,7 @@
 
 // media de 100 numeros
 
-package meu.projeto.ficha02;
+package meu.projeto.algoritmosficha02;
 
 public class Questao8 {
 	static int[] preencher () {
