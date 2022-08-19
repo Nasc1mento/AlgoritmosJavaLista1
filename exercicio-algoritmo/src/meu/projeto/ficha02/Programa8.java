@@ -1,6 +1,6 @@
 // primo, impar , par dos 100 numeros inteiros
 
-package meu.projeto;
+package meu.projeto.ficha02;
 
 public class Programa8 {
 	static int[] preencher () {

@@ -1,6 +1,6 @@
 // imprimir array aleatorio inversamente
 
-package meu.projeto;
+package meu.projeto.ficha02;
 
 public class Programa7 {
 	 public static void main (String [] args) {

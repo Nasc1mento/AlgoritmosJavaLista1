@@ -1,6 +1,6 @@
 // media das notas
 
-package meu.projeto;
+package meu.projeto.ficha02;
 
 import java.util.Scanner;
 

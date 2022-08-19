@@ -1,6 +1,6 @@
 // maior dos cem numeros
 
-package meu.projeto;
+package meu.projeto.ficha02;
 
 public class Programa9 {
 	static int[] preencher () {

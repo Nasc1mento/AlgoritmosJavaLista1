@@ -1,7 +1,7 @@
 
 // media de 100 numeros
 
-package meu.projeto;
+package meu.projeto.ficha02;
 
 public class Programa10 {
 	static int[] preencher () {

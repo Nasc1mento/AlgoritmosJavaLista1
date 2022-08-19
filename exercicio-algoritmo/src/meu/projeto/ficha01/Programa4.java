@@ -1,6 +1,6 @@
 // par ou impar?
 
-package meu.projeto;
+package meu.projeto.ficha01;
 
 import java.util.Scanner;
 
