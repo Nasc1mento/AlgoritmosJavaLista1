@@ -4,7 +4,7 @@ package meu.projeto.ficha01;
 
 import java.util.Scanner;
 
-public class Programa1 {
+public class Questao2 {
 	public static void main(String[] args) {
 		
 		float peso = 0f;

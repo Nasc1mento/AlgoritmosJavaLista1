@@ -4,7 +4,7 @@ package meu.projeto.ficha01;
 
 import java.util.Scanner;
 
-public class Programa4 {
+public class Questao5 {
 	public static void main (String [] args) {
 		
 		System.out.println("Digite um n�mero:");

@@ -4,7 +4,7 @@ package meu.projeto.ficha02;
 
 import java.util.Scanner;
 
-public class Programa6 {
+public class Questao2 {
 	static int[] preencher (int numeros[]) {
 
 		Scanner sc = new Scanner (System.in);

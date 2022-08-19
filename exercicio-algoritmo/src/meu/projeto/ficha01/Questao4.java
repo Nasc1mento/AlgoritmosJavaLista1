@@ -3,7 +3,7 @@ package meu.projeto.ficha01;
 
 import java.util.Scanner;
 
-public class Programa3 {
+public class Questao4 {
 	
 	public static void main (String [] args) {
 		int numero1;

@@ -2,7 +2,7 @@
 
 package meu.projeto.ficha02;
 
-public class Programa9 {
+public class Questao7 {
 	static int[] preencher () {
 			
 			byte max = 100;

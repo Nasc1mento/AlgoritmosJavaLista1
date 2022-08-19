@@ -4,7 +4,7 @@ package meu.projeto.ficha02;
 
 import java.util.Scanner;
 
-public class Programa5 {
+public class Questao1 {
 	public static void main (String[] args) {
 		
 		float total = 0f;
