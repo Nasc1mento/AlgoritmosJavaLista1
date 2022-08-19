@@ -26,6 +26,8 @@ public class Questao3 {
 		
 		System.out.printf("A �rea do tri�ngulo � %.2f", area);
 		
+		sc.close();
+		
 		
 	}
 }

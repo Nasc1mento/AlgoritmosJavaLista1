@@ -24,6 +24,8 @@ public class Questao1 {
 		media = total / notas.length;
 		System.out.printf("Sua media é: %.2f", media);
 		
+		sc.close();
+		
 	}
 }
 

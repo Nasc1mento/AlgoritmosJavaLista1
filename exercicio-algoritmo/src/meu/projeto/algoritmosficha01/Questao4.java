@@ -18,5 +18,7 @@ public class Questao4 {
 		resultado = numero1 > numero2 ? numero1 : numero2;
 		
 		System.out.print(resultado);
+		
+		sc.close();
 	}
 }

@@ -26,6 +26,7 @@ public class Questao2 {
 		
 		
 		System.out.printf("Seu IMC � %.2f", imc);
+		sc.close();
 	}
 }
 

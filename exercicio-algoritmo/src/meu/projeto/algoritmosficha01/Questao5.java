@@ -16,5 +16,6 @@ public class Questao5 {
 		
 		System.out.println(numero % 2 == 0 ? "par" : "impar");
 		
+		sc.close();
 	}
 }

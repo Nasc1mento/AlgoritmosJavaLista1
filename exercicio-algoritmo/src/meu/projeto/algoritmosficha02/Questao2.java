@@ -12,7 +12,9 @@ public class Questao2 {
 		for (int i = 0; i < numeros.length; i ++) {
 			System.out.println("Digite o numero");
 			numeros[i] = sc.nextInt();
-		}return numeros;
+		}
+		sc.close();
+		return numeros;
 	}
 	
 	static void reverter (int[] numeros, int tamanho) {
