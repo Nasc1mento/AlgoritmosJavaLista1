@@ -14,9 +14,9 @@ public class Questao1 {
 
 		Scanner sc = new Scanner(System.in);
 
-		for (byte i = 0; i < notas.length; i++) {
+		for (int i = 0; i < notas.length; i++) {
 
-			System.out.printf("Nota %o: \n", i + 1);
+			System.out.printf("Nota %d: \n", i + 1);
 
 			notas[i] = sc.nextFloat();
 			total += notas[i];

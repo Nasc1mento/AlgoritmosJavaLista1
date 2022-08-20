@@ -10,11 +10,9 @@
 package meu.projeto.algoritmosficha02;
 
 public class Questao456 {
-	static int[] preencher() {
+	static int[] preencher(int min, int max, int tamanho) {
 
-		byte max = 100;
-		byte min = 0;
-		int[] numeros = new int[100];
+		int[] numeros = new int[tamanho];
 
 		for (int i = 0; i < numeros.length; i++) {
 			numeros[i] = (int) (Math.random() * (max - min + 1) + min);
@@ -52,7 +50,7 @@ public class Questao456 {
 
 	public static void main(String[] args) {
 
-		int[] numeros = preencher();
+		int[] numeros = preencher(0, 1000, 100);
 
 		primo(numeros);
 		impar(numeros);

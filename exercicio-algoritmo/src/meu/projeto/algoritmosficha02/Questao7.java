@@ -4,11 +4,9 @@
 package meu.projeto.algoritmosficha02;
 
 public class Questao7 {
-	static int[] preencher() {
+	static int[] preencher(int min, int max, int tamanho) {
 
-		int max = 10000;
-		int min = 0;
-		int[] numeros = new int[100];
+		int[] numeros = new int[tamanho];
 
 		for (int i = 0; i < numeros.length; i++) {
 			numeros[i] = (int) (Math.random() * (max - min + 1) + min);
@@ -43,7 +41,7 @@ public class Questao7 {
 
 	public static void main(String[] args) {
 
-		int[] numeros = preencher();
+		int[] numeros = preencher(0, 10000, 100);
 		System.out.printf("Maior número: %d \n", maior(numeros));
 		System.out.printf("Menor número: %d \n", menor(numeros));
 	}
