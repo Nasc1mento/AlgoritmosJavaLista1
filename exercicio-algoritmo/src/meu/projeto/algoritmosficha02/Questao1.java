@@ -1,4 +1,5 @@
-// media das notas
+//1. Escreva um algoritmo em Java que solicite 5 notas e realize o c ́alculo da m ́edia aritm ́etica ao t ́ermino
+//da execu ̧c ̃ao.
 
 package meu.projeto.algoritmosficha02;
 

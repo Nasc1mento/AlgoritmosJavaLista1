@@ -1,4 +1,5 @@
-// imprimir array aleatorio inversamente
+//3. Crie um algoritmo que preencha um Array com 100 n ́umeros inteiros aleatoriamente e imprima os
+//elementos. Al ́em disso, deve-se realizar a impress ̃ao inversa tamb ́em.
 
 package meu.projeto.algoritmosficha02;
 

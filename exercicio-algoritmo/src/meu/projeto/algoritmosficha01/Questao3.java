@@ -1,4 +1,11 @@
-// area de um triangulo
+//3. Escreva um algoritmo em Java para realizar o c ́alculo de  ́area de um trap ́ezio retˆangulo. Todas as
+//entradas do usu ́ario devem estar em cm. A sa ́ıda do algoritmo deve ser a  ́area do trap ́ezio em cm2 no
+//console (e.g. ”A  ́area do trap ́ezio em cm2  ́e ”). A f ́ormula  ́e
+//
+//area  ́ =
+//(Basemaior + Basemenor) ∗ altura
+//
+//2
 
 package meu.projeto.algoritmosficha01;
 
@@ -24,7 +31,7 @@ public class Questao3 {
 		
 		area = (base1 * base2) / altura;
 		
-		System.out.printf("A �rea do tri�ngulo � %.2f", area);
+		System.out.printf("A área do triângulo é %.2f", area);
 		
 		sc.close();
 		

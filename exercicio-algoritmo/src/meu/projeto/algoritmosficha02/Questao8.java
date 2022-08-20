@@ -1,5 +1,5 @@
-
-// media de 100 numeros
+//8. Crie um algoritmo que preencha um Array com 100 n ́umeros inteiros aleatoriamente e realize o c ́alculo
+//da m ́edia aritm ́etica.
 
 package meu.projeto.algoritmosficha02;
 

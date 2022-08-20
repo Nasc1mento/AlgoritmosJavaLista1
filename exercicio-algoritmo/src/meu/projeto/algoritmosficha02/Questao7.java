@@ -1,4 +1,5 @@
-// maior dos cem numeros
+//7. Crie um algoritmo que preencha um Array com 100 n ́umeros inteiros aleatoriamente e imprima o maior
+//e menor elemento.
 
 package meu.projeto.algoritmosficha02;
 

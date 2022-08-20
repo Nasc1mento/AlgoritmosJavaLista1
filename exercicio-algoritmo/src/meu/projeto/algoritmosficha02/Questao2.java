@@ -1,4 +1,4 @@
-// imprimir scanner array inversamente
+//2. Dada a entrada de 10 inteiros em sequˆencia, realize a impress ̃ao da entrada inicial de forma inversa.
 
 package meu.projeto.algoritmosficha02;
 
@@ -10,7 +10,7 @@ public class Questao2 {
 		Scanner sc = new Scanner (System.in);
 		
 		for (int i = 0; i < numeros.length; i ++) {
-			System.out.println("Digite o numero");
+			System.out.println("Digite o número "+ (i+1));
 			numeros[i] = sc.nextInt();
 		}
 		sc.close();
