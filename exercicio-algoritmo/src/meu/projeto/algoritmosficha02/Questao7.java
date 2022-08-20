@@ -42,9 +42,9 @@ public class Questao7 {
 	}
 
 	public static void main(String[] args) {
-		
+
 		int[] numeros = preencher();
-		System.out.printf("Maior número: %d \n",maior(numeros));
-		System.out.printf("Menor número: %d \n",menor(numeros));
+		System.out.printf("Maior número: %d \n", maior(numeros));
+		System.out.printf("Menor número: %d \n", menor(numeros));
 	}
 }

@@ -10,49 +10,50 @@
 package meu.projeto.algoritmosficha02;
 
 public class Questao456 {
-	static int[] preencher () {
-		
+	static int[] preencher() {
+
 		byte max = 100;
 		byte min = 0;
-		int [] numeros = new int [100];
-		
+		int[] numeros = new int[100];
+
 		for (int i = 0; i < numeros.length; i++) {
 			numeros[i] = (int) (Math.random() * (max - min + 1) + min);
-		}return numeros;
-		
+		}
+		return numeros;
+
 	}
-	
-	static void primo (int [] numeros) {
+
+	static void primo(int[] numeros) {
 		System.out.println("Primos:");
 		for (int i = 0; i < numeros.length; i++) {
 			if (numeros[i] % 2 != 0 && numeros[i] % 3 != 0 && numeros[i] % 5 != 0 && numeros[i] % 7 != 0) {
-				System.out.printf("%d°: %d \n",(i+1),numeros[i]);
+				System.out.printf("%d°: %d \n", (i + 1), numeros[i]);
 			}
 		}
 	}
-	
-	static void impar (int [] numeros) {
+
+	static void impar(int[] numeros) {
 		System.out.println("Impares:");
 		for (int i = 0; i < numeros.length; i++) {
 			if (numeros[i] % 2 != 0) {
-				System.out.printf("%d°: %d \n",(i+1),numeros[i]);
+				System.out.printf("%d°: %d \n", (i + 1), numeros[i]);
 			}
 		}
 	}
-	
-	static void par (int [] numeros) {
+
+	static void par(int[] numeros) {
 		System.out.println("Pares:");
 		for (int i = 0; i < numeros.length; i++) {
 			if (numeros[i] % 2 == 0) {
-				System.out.printf("%d°: %d \n",(i+1),numeros[i]);
+				System.out.printf("%d°: %d \n", (i + 1), numeros[i]);
 			}
 		}
 	}
-	
+
 	public static void main(String[] args) {
-		
-		int [] numeros = preencher();
-		
+
+		int[] numeros = preencher();
+
 		primo(numeros);
 		impar(numeros);
 		par(numeros);
