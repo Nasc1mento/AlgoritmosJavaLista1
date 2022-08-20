@@ -1,11 +1,11 @@
-//4. Crie um algoritmo que preencha um Array com 100 n ́umeros inteiros aleatoriamente e imprima os
-//elementos num ́ericos que sejam primos.
+//4. Crie um algoritmo que preencha um Array com 100 números inteiros aleatoriamente e imprima os
+//elementos numéricos que sejam primos.
 //
-//5. Crie um algoritmo que preencha um Array com 100 n ́umeros inteiros aleatoriamente e imprima os
-//elementos num ́ericos que sejam  ́ımpares.
+//5. Crie um algoritmo que preencha um Array com 100 números inteiros aleatoriamente e imprima os
+//elementos numéricos que sejam ímpares.
 //
-//6. Crie um algoritmo que preencha um Array com 100 n ́umeros inteiros aleatoriamente e imprima os
-//elementos num ́ericos que sejam pares.
+//6. Crie um algoritmo que preencha um Array com 100 números inteiros aleatoriamente e imprima os
+//elementos numéricos que sejam pares.
 
 package meu.projeto.algoritmosficha02;
 
@@ -26,7 +26,7 @@ public class Questao456 {
 		System.out.println("Primos:");
 		for (int i = 0; i < numeros.length; i++) {
 			if (numeros[i] % 2 != 0 && numeros[i] % 3 != 0 && numeros[i] % 5 != 0 && numeros[i] % 7 != 0) {
-				System.out.println(numeros[i]);
+				System.out.printf("%d°: %d \n",(i+1),numeros[i]);
 			}
 		}
 	}
@@ -35,7 +35,7 @@ public class Questao456 {
 		System.out.println("Impares:");
 		for (int i = 0; i < numeros.length; i++) {
 			if (numeros[i] % 2 != 0) {
-				System.out.println(numeros[i]);
+				System.out.printf("%d°: %d \n",(i+1),numeros[i]);
 			}
 		}
 	}
@@ -44,7 +44,7 @@ public class Questao456 {
 		System.out.println("Pares:");
 		for (int i = 0; i < numeros.length; i++) {
 			if (numeros[i] % 2 == 0) {
-				System.out.println(numeros[i]);
+				System.out.printf("%d°: %d \n",(i+1),numeros[i]);
 			}
 		}
 	}

@@ -1,5 +1,5 @@
-//3. Crie um algoritmo que preencha um Array com 100 n ́umeros inteiros aleatoriamente e imprima os
-//elementos. Al ́em disso, deve-se realizar a impress ̃ao inversa tamb ́em.
+//3. Crie um algoritmo que preencha um Array com 100 números inteiros aleatoriamente e imprima os
+//elementos. Além disso, deve-se realizar a impressão inversa também.
 
 package meu.projeto.algoritmosficha02;
 
@@ -18,7 +18,7 @@ public class Questao3 {
 			
 		}
 		
-		System.out.println("Reverter:");
+		System.out.println("Reverso:");
 		
 		for (int j = numeros.length-1; j >= 0; j--) {
 			 System.out.println(numeros[j]);

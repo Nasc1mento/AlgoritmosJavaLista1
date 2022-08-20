@@ -1,5 +1,5 @@
-//1. Escreva um algoritmo em Java que solicite 5 notas e realize o c ́alculo da m ́edia aritm ́etica ao t ́ermino
-//da execu ̧c ̃ao.
+//1. Escreva um algoritmo em Java que solicite 5 notas e realize o cálculo da m ́edia aritmética ao término
+//da execução.
 
 package meu.projeto.algoritmosficha02;
 
@@ -16,7 +16,7 @@ public class Questao1 {
 		
 		for (byte i = 0; i < notas.length; i++) {
 			
-			System.out.printf("Nota %o \n", i+1);
+			System.out.printf("Nota %o: \n", i+1);
 			
 			notas[i] = sc.nextFloat();
 			total += notas[i];

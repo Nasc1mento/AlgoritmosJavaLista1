@@ -1,12 +1,12 @@
-//8. Crie um algoritmo que preencha um Array com 100 n ́umeros inteiros aleatoriamente e realize o c ́alculo
-//da m ́edia aritm ́etica.
+//8. Crie um algoritmo que preencha um Array com 100 números inteiros aleatoriamente e realize o cálculo
+//da média aritmética.
 
 package meu.projeto.algoritmosficha02;
 
 public class Questao8 {
 	static int[] preencher () {
 		
-		byte max = 100;
+		int max = 10000;
 		byte min = 0;
 		int [] numeros = new int [100];
 		
@@ -30,6 +30,8 @@ public class Questao8 {
 	
 	
 	public static void main(String[] args) {
-		System.out.println(calcmedia(preencher()));
+		
+		int[] numeros = preencher();
+		System.out.printf("A média é: %d \n", calcmedia(numeros));
 	}
 }

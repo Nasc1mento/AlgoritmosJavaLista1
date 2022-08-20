@@ -1,9 +1,6 @@
-//3. Escreva um algoritmo em Java para realizar o c ́alculo de  ́area de um trap ́ezio retˆangulo. Todas as
-//entradas do usu ́ario devem estar em cm. A sa ́ıda do algoritmo deve ser a  ́area do trap ́ezio em cm2 no
-//console (e.g. ”A  ́area do trap ́ezio em cm2  ́e ”). A f ́ormula  ́e
-//
-//area  ́ =
-//(Basemaior + Basemenor) ∗ altura
+//3. Escreva um algoritmo em Java para realizar o cálculo de  ́area de um trapézio retângulo. Todas as
+//entradas do usuário devem estar em cm. A saída do algoritmo deve ser a  ́area do trapézio em cm2 no
+//console (e.g. ”A  ́area do trapézio em cm2  ́e ”). A fórmula  ́e area  ́= ((Basemaior + Basemenor) ∗ altura) / 2
 //
 //2
 

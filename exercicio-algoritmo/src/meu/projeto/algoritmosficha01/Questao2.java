@@ -1,8 +1,5 @@
-//2. Crie um algoritmo em Java para realizar o c ́alculo de IMC. A sa ́ıda do algoritmo deve ser o valor do
-//IMC no console (e.g. ”O valor do seu IMC  ́e ”). A f ́ormula  ́e
-//IMC =
-//peso
-//altura2
+//2. Crie um algoritmo em Java para realizar o cálculo de IMC. A saída do algoritmo deve ser o valor do
+//IMC no console (e.g. ”O valor do seu IMC  ́e ”). A f ́ormula  ́e IMC = peso * altura2
 
 package meu.projeto.algoritmosficha01;
 
