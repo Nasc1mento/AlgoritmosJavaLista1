@@ -1,4 +1,3 @@
-# CodigosPOO
+# AlgoritmosJavaLista1
 
-
-## Repositorio criado para salvar o progresso da disciplina de Programação Orientada a Objetos
+### Revisão de algoritmos da disciplina de POO usando a linguagem Java.
